@@ -1680,7 +1680,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1719,7 +1719,7 @@
   (symbol (lib_id "MCU_ST_STM32G0:STM32G030F6Px") (at 83.82 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46584ef9-1882-4bfb-b8e1-08dca69b5758)
-    (property "Reference" "U3" (at 85.7759 52.07 0)
+    (property "Reference" "U2" (at 85.7759 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G030F6Px" (at 85.7759 54.61 0)
@@ -1754,7 +1754,7 @@
     (instances
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1937,7 +1937,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2039,7 +2039,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2317,7 +2317,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2635,10 +2635,10 @@
   (symbol (lib_id "Device:LED") (at 256.54 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edcac56e-4844-4835-9370-816764300fd5)
-    (property "Reference" "D1" (at 260.35 48.5774 90)
+    (property "Reference" "D1" (at 260.35 49.2125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (at 260.35 51.1174 90)
+    (property "Value" "Blue" (at 260.35 51.7525 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "$74th:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 256.54 48.26 0)
@@ -2688,7 +2688,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
