@@ -1929,7 +1929,7 @@
   (symbol (lib_id "$74th:DAPLink-SWD-Recv-6Pin") (at 228.6 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75d77700-6875-4f24-9716-ba53ade71cea)
-    (property "Reference" "J3" (at 228.6 137.16 0)
+    (property "Reference" "CH3" (at 228.6 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DAPLink-SWD-Recv-6Pin" (at 228.6 139.7 0)
@@ -1950,7 +1950,7 @@
     (instances
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "J3") (unit 1)
+          (reference "CH3") (unit 1)
         )
       )
     )
@@ -1991,7 +1991,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "J2") (unit 1)
+          (reference "CH2") (unit 1)
         )
       )
     )
@@ -2306,12 +2306,12 @@
   )
 
   (symbol (lib_id "$74th:ProMicro-LeftPin-NoGND") (at 201.93 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b6a7a449-ea50-47ab-a3a2-f41776974bdc)
-    (property "Reference" "CH1" (at 208.28 109.855 0)
+    (property "Reference" "CH1" (at 199.39 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ProMicro-LeftPin" (at 208.28 112.395 0)
+    (property "Value" "ProMicro-LeftPin" (at 193.04 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "$74th:ProMicro_LIKE_LEFT_NO_GND" (at 201.93 93.98 0)
