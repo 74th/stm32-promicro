@@ -1,8 +1,8 @@
 # STM32F03xfxp ProMicro
 
-The box pin header for DAP Link has the following pin layout.
-
 <img src="stm32g03xfxp-v1.2.0-photo1.jpg" width="24%"><img src="stm32g03xfxp-v1.2.0-photo2.jpg" width="24%"><img src="stm32g03xfxp-v1.2.0-photo3.jpg" width="24%"><img src="stm32g03xfxp-v1.2.0-photo4.jpg" width="24%">
+
+The box pin header for DAP Link has the following pin layout.
 
 DAP Link 用のボックスピンヘッダは以下のピン配置になっています。
 
