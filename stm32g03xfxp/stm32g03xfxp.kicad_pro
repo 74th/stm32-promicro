@@ -40,9 +40,9 @@
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.7999999999999999,
+        "silk_text_size_v": 0.7999999999999999,
+        "silk_text_thickness": 0.12,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -439,10 +439,10 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "GND",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.35,
         "wire_width": 6
@@ -456,7 +456,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -473,15 +473,15 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "+5V"
+        "pattern": ".*\\+(5V|3V3).*"
       },
       {
-        "netclass": "Power",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "GND",
+        "netclass": "USB",
         "pattern": "GND"
+      },
+      {
+        "netclass": "USB",
+        "pattern": ".*USBD(\\-|\\+).*"
       }
     ]
   },
