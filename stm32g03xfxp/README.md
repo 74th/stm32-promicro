@@ -13,9 +13,9 @@
 
 ### Debug Port
 
-The box pin header for DAP Link has the following pin layout.
+The box pin header for SWD has the following pin layout.
 
-DAP Link 用のボックスピンヘッダは以下のピン配置になっています。
+SWD のピンヘッダは以下のピン配置になっています。
 
 <img src="../swd-with-uart-10pin.png" width="50%" />
 
@@ -29,19 +29,19 @@ For other functions, please refer to the datasheet.
 
 ### BOM
 
-| Reference | Name                                  | Quantity |
-| --------- | ------------------------------------- | -------- |
-| C1        | Capacitor 0805 10uF                   | 1        |
-| C2        | Capacitor 0805 2.2uF                  | 1        |
-| C3, C4    | Capacitor 0805 100nF                  | 2        |
-| D1        | LED 0805 Blue                         | 1        |
-| J1        | USB Type-C Receptacle                 | 1        |
-| J2        | Box Pin Header 2x5 Pitch 1.27mm (SWD) | 1        |
-| R1, R2    | Register 0805 5.1kΩ                   | 2        |
-| R3, R4    | Register 0805 10kΩ                    | 2        |
-| SW1       | Button SKRPABE010                     | 1        |
-| U1        | Regulator 3.3V SOT-89 AMS1117         | 1        |
-| U2        | MCU ST STM32G030F6Px                  | 1        |
+| Reference | Name                              | Quantity |
+| --------- | --------------------------------- | -------- |
+| C1        | Capacitor 0805 10uF               | 1        |
+| C2        | Capacitor 0805 2.2uF              | 1        |
+| C3, C4    | Capacitor 0805 100nF              | 2        |
+| D1        | LED 0805 Blue                     | 1        |
+| J1        | USB Type-C Receptacle             | 1        |
+| J2        | Pin Header 2x5 Pitch 1.27mm (SWD) | 1        |
+| R1, R2    | Register 0805 5.1kΩ               | 2        |
+| R3, R4    | Register 0805 10kΩ                | 2        |
+| SW1       | Button SKRPABE010                 | 1        |
+| U1        | Regulator 3.3V SOT-89 AMS1117     | 1        |
+| U2        | MCU ST STM32G030F6Px              | 1        |
 
 ## v1.2.0
 
