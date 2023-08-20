@@ -7,7 +7,7 @@
 ### Documents
 
 - Semantics 回路図 [PDF](stm32g03xfxp-semantcs-v1.3.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fstm32-promicro%2Fblob%2Fstm32g03xfxp%2Fv1.3.0%2Fstm32g03xfxp%2Fstm32g03xfxp.kicad_sch)
-- PCB [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fstm32-promicro%2Fblob%2Fstm32g03xfxp%2Fv1.3.0%2Fstm32g03xfxp%2Fstm32g03xfxp.kicad_pcb)
+- PCB [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fstm32-promicro%2Fblob%2Fmain%2Fstm32g03xfxp%2Fstm32g03xfxp.kicad_pcb)
 
 ### Debug Port
 
@@ -15,7 +15,7 @@ The box pin header for DAP Link has the following pin layout.
 
 DAP Link 用のボックスピンヘッダは以下のピン配置になっています。
 
-![Alt text](../swd-with-uart-10pin.png)
+<img src="../swd-with-uart-10pin.png" width="50%" />
 
 ## Pinout
 
@@ -54,7 +54,7 @@ The box pin header for DAP Link has the following pin layout.
 
 DAP Link 用のボックスピンヘッダは以下のピン配置になっています。
 
-![Alt text](../daplink-boxpinheader-receiver-6pin.png)
+<img src="../daplink-boxpinheader-receiver-6pin.png" width="50%" />
 
 ### Pinout
 
