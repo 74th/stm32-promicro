@@ -4,6 +4,8 @@
 
 ## v1.3.0
 
+- change SWD port to 10 Pin with UART like Arduino UNO R4 (but, vcc is 3.3V)
+
 ### Documents
 
 - Semantics 回路図 [PDF](stm32g03xfxp-semantcs-v1.3.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fstm32-promicro%2Fblob%2Fstm32g03xfxp%2Fv1.3.0%2Fstm32g03xfxp%2Fstm32g03xfxp.kicad_sch)
