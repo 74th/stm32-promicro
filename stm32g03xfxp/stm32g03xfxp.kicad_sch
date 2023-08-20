@@ -1921,7 +1921,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1952,7 +1952,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2300,7 +2300,7 @@
       )
       (project "stm32g03xfxp"
         (path "/ad8c6d77-a94b-49d3-bd09-1716910d0c7d"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
