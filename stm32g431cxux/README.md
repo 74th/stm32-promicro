@@ -1,6 +1,13 @@
-#
+# STM32G431CxUx ProMicro
+
+<img src="./photo1.jpeg" width="33%"/><img src="./photo2.jpeg" width="33%"/><img src="./photo3.jpeg" width="33%"/>
 
 ## v1.1.0
+
+### Documents
+
+- semantics [PDF](./stm32g431-promicro-v1.1.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fstm32-promicro%2Fblob%2Fstm32g431cxux%2F1.1.0%2Fstm32g431cxux%2Fstm32g431cxux.kicad_sch)
+- pcb [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fstm32-promicro%2Fblob%2Fstm32g431cxux%2F1.1.0%2Fstm32g431cxux%2Fstm32g431cxux.kicad_pcd)
 
 ### BOM
 
